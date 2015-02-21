@@ -19,7 +19,7 @@ describe('Capitalizer', function () {
 
 
 	it('Capitalizes all words in an array', function () {
-		assert.equal(
+		assert.deepEqual(
 			capitalize(['this', 'is', 'a', 'test', 'sentence']),
 			['This', 'Is', 'A', 'Test', 'Sentence']
 		)
