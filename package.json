@@ -1,0 +1,28 @@
+{
+  "name": "capitalizer",
+  "version": "0.1.0",
+  "description": "Capitalize a string, all words in a string, all items in an array or all values in an object",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adius/capitalizer.git"
+  },
+  "keywords": [
+    "capitalize"
+  ],
+  "author": "Adrian Sieber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adius/capitalizer/issues"
+  },
+  "homepage": "https://github.com/adius/capitalizer"
+}
