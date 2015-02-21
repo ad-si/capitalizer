@@ -69,7 +69,7 @@ assert.equal(
         hobby: 'Chillin',
         address: {
             country: 'Australia',
-            street: 'Wayne boulevard',
+            street: 'Wayne boulevard'
         }
     }
 )
