@@ -2,6 +2,8 @@
 
 Capitalize a string or all words in a string or all items in an array or all values in an object.
 
+Written in TypeScript with full type safety.
+
 
 ## Installation
 
@@ -11,8 +13,14 @@ $ npm install --save capitalizer
 
 and in your files
 
-```
+**JavaScript:**
+```js
 var capitalize = require('capitalizer')
+```
+
+**TypeScript:**
+```ts
+import capitalize = require('capitalizer');
 ```
 
 To use it in the browser please use [browserify](http://browserify.org).
@@ -28,7 +36,14 @@ assert.equal(capitalize('test'), 'Test')
 // or
 
 assert.equal(capitalize.first('test'), 'Test')
+```
 
+**TypeScript:**
+```ts
+import capitalize = require('capitalizer');
+
+assert.equal(capitalize('test'), 'Test');
+assert.equal(capitalize.first('test'), 'Test');
 ```
 
 
