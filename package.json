@@ -2,23 +2,32 @@
   "name": "capitalizer",
   "version": "0.2.0",
   "description": "Capitalize a string, all words in a string, all items in an array or all values in an object",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "test": "test"
   },
   "devDependencies": {
-    "mocha": "^2.1.0"
+    "@types/assert": "^1.5.11",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.5.2",
+    "mocha": "^2.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   },
   "scripts": {
-    "prepublish": "npm test",
-    "test": "node_modules/.bin/mocha test"
+    "build": "tsc",
+    "prepublish": "npm run build && npm test",
+    "test": "npm run build && node_modules/.bin/mocha dist/test",
+    "test:ts": "node_modules/.bin/mocha --require ts-node/register test/**/*.ts"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/adius/capitalizer.git"
   },
   "keywords": [
-    "capitalize"
+    "capitalize",
+    "typescript"
   ],
   "author": "Adrian Sieber",
   "license": "MIT",
