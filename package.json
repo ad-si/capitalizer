@@ -7,23 +7,9 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {
-    "@types/assert": "^1.5.11",
-    "@types/mocha": "^10.0.10",
-    "@types/node": "^24.5.2",
-    "mocha": "^2.1.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
-  },
-  "scripts": {
-    "build": "tsc",
-    "prepublish": "npm run build && npm test",
-    "test": "npm run build && node_modules/.bin/mocha dist/test",
-    "test:ts": "node_modules/.bin/mocha --require ts-node/register test/**/*.ts"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adius/capitalizer.git"
+    "url": "git+https://github.com/adius/capitalizer.git"
   },
   "keywords": [
     "capitalize",
@@ -34,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/adius/capitalizer/issues"
   },
-  "homepage": "https://github.com/adius/capitalizer"
+  "homepage": "https://github.com/adius/capitalizer",
+  "devDependencies": {
+    "@types/assert": "^1.5.11",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.9.1",
+    "mocha": "^11.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
 }
