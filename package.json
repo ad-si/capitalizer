@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adius/capitalizer.git"
+    "url": "git+https://github.com/ad-si/capitalizer.git"
   },
   "keywords": [
     "capitalize",
@@ -18,9 +18,9 @@
   "author": "Adrian Sieber",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adius/capitalizer/issues"
+    "url": "https://github.com/ad-si/capitalizer/issues"
   },
-  "homepage": "https://github.com/adius/capitalizer",
+  "homepage": "https://github.com/ad-si/capitalizer",
   "devDependencies": {
     "@types/assert": "^1.5.11",
     "@types/mocha": "^10.0.10",
