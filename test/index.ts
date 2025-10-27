@@ -25,8 +25,8 @@ describe('Capitalizer', function () {
 	});
 
 
-	it.skip('Recursively capitalizes all strings in an object', function () {
-		assert.equal(
+	it('Recursively capitalizes all strings in an object', function () {
+		assert.deepEqual(
 			capitalize({
 				name: 'john',
 				hobby: 'chillin',
@@ -40,7 +40,7 @@ describe('Capitalizer', function () {
 				hobby: 'Chillin',
 				address: {
 					country: 'Australia',
-					street: 'Wayne boulevard'
+					street: 'Wayne Boulevard'
 				}
 			}
 		);
