@@ -5,9 +5,12 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/index.d.ts.map",
+    "dist/index.js.map"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ad-si/capitalizer.git"
