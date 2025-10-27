@@ -51,8 +51,8 @@ Capitalize all words in a string:
 
 ```js
 assert.equal(
-	capitalize.all('this is a test sentence'),
-	'This Is A Test Sentence'
+  capitalize.all('this is a test sentence'),
+  'This Is A Test Sentence'
 )
 ```
 
@@ -61,8 +61,8 @@ Capitalize all words in an array:
 
 ```js
 assert.equal(
-	capitalize(['this', 'is', 'a', 'test', 'sentence']),
-	['This', 'Is', 'A', 'Test', 'Sentence']
+  capitalize(['this', 'is', 'a', 'test', 'sentence']),
+  ['This', 'Is', 'A', 'Test', 'Sentence']
 )
 ```
 
@@ -71,15 +71,15 @@ TODO: Recursively capitalize all strings in an object:
 
 ```js
 assert.equal(
-	capitalize({
-		name: 'john',
-		hobby: 'chillin',
-		address: {
-			country: 'australia',
-			street: 'wayne boulevard',
-		}
-	}),
-	{
+  capitalize({
+    name: 'john',
+    hobby: 'chillin',
+    address: {
+      country: 'australia',
+      street: 'wayne boulevard',
+    }
+  }),
+  {
         name: 'John',
         hobby: 'Chillin',
         address: {
